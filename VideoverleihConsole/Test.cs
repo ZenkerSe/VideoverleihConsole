@@ -11,5 +11,10 @@ namespace VideoverleihConsole
         {
             return 0;
         }
+
+        int minusRechnen()
+        {
+            return 0;
+        }
     }
 }

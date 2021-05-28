@@ -7,5 +7,14 @@ namespace VideoverleihConsole
     class Test
     {
         //Test
+        int plusRechnen()
+        {
+            return 0;
+        }
+
+        int minusRechnen()
+        {
+            return 0;
+        }
     }
 }

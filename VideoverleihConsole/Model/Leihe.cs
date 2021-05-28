@@ -4,7 +4,7 @@ using System.Text;
 
 namespace VideoverleihConsole.Model
 {
-    class Leihe
+    public class Leihe
     {
         public Guid ID { get; }
         public DateTime leihdatum { get; }

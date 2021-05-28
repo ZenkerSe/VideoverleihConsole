@@ -4,7 +4,7 @@ using System.Text;
 
 namespace VideoverleihConsole.Model
 {
-    class Kunde
+    public class Kunde
     {
         public Guid ID { get; }
         public string nachname { get; }

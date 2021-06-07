@@ -9,12 +9,12 @@ namespace VideoverleihConsole.Controller
     {
         List<Kunde> Kundenliste { get; }
 
-        public void kundeHinzufuegen()
+        public void kundeHinzufuegen(string nachname, string vorname, DateTime geburtstag, string email)
         {
-            string Nachname = "Müller";
-            string Vorname = "Lieschen";
-            DateTime Geburtstag = Convert.ToDateTime("30.04.1989");
-            string Email = "MickeyMouse@hotmail.org";
+            string Nachname = nachname;
+            string Vorname = vorname;
+            DateTime Geburtstag = geburtstag;
+            string Email = email;
 
             Kunde NeuerKunde = new Kunde(Nachname, Vorname, Geburtstag, Email);
             Kundenliste.Add(NeuerKunde);
@@ -26,8 +26,6 @@ namespace VideoverleihConsole.Controller
     
             Kundenliste.Remove(ZuLoeschenderKunde);
         }
-
-
-
+        
     }
 }
